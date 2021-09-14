@@ -15,7 +15,7 @@ import com.proveedor.services.ServicioProveedor;
 
 @RestController
 @CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST})
-@RequestMapping(path="/rest/proveedores")
+@RequestMapping(path="/")
 public class GetProveedores {
 
 	@Autowired
